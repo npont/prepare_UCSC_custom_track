@@ -1,5 +1,6 @@
 # Upload Tracks onto UCSC Genome Browser 
-This repository contains scripts to prepare the data to be loaded onto UCSC genome browser. It is a special case in which we want to display DCM binding sites and their binding score onto the Zebrafish genome. I made it as most generic as possible to be adapted to any type of data.
+This repository contains scripts to prepare the data to be loaded onto UCSC genome browser. It is a special case in which we want to display DCM binding sites and their binding score onto the Zebrafish genome. I made it as most generic as possible to be adapted to any type of data. 
+Genome at use: Danio rerio (Zebrafish). Just upload the correct chrom.sizes file for your genome of interest.
 
 # Workflow
 ## Prepare the conda environments
