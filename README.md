@@ -3,6 +3,7 @@ This repository contains scripts to prepare the data to be loaded onto UCSC geno
 
 # Workflow
 ## Prepare the conda environments
+Activate those environments from the yml files:
 - environment_1 (it contains many libraries not needed here, but it's my common environment used on scNMT-seq data, might be optional)
 - galaxy-upload (required)
 ## Prepare input files
