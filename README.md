@@ -29,4 +29,5 @@ done
 (the later will add the links of the files into final_hub.txt)
 - Run the following from the bed files directory:
 galaxy-upload --history-id <history_id> --url https://usegalaxy.org --api-key <galaxy_api_key> final_hub.txt
-- Finally, go to https://genome.ucsc.edu/cgi-bin/hgHubConnect?hgsid=2789695104_J4iqtvzVWqyVN637NYSbko1A6JlT  “Connected Hubs” and connect the hub by pasting its URL (copied from Galaxy website by clicking on final_hub.txt and copy the chain symbol) and save it in my session
+- Finally, connect your Galaxy hub onto UCSC Genome Browser hubs:
+  go to [https://genome.ucsc.edu/cgi-bin/hgHubConnect?hgsid=2789695104_J4iqtvzVWqyVN637NYSbko1A6JlT](https://genome.ucsc.edu/cgi-bin/hgHubConnect)  “Connected Hubs” and connect the hub by pasting its URL (copied from Galaxy website by clicking on final_hub.txt and copy the chain symbol) and save it in my session
