@@ -8,10 +8,10 @@ Activate those environments from the yml files:
 - environment_1 (it contains many libraries not needed here, but it's my common environment used on scNMT-seq data, might be optional)
 - galaxy-upload (required)
 ## Prepare input files
-Create a text file where each row contains the name of the sample to be uploaded onto the browser
+Create a text file where each row contains the name of the sample to be uploaded onto the browser.
 Place the latter file in the directory containing the bed files 
 
-## Code part
+## Coding part
 - conda activate environment_1
 - Run prepare_UCSC_genome_browser.sh after replacing paths properly under section ### User Dependent ###
 The latter will create a directory bigWig_for_UCSC_genome_browser/ containing the files that will be uploaded to Galaxy (and then shown on UCSC Genome Browser)
